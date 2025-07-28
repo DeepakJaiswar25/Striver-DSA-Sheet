@@ -1,5 +1,3 @@
-
-
 public class GCD {
 public static void main(String[] args) {
     int N1= 20;
@@ -12,7 +10,4 @@ public static void main(String[] args) {
    }
    System.out.println("GCD : "+gcd);
 }    
-
-
-
 }
