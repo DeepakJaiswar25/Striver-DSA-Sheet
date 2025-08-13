@@ -10,8 +10,7 @@ public class sum {
     public static int sum1toN(int i){
         
        if(i==0)
-       return 0;
-       
+       return 0;       
        return i+sum1toN(i-1);
     }
 }
