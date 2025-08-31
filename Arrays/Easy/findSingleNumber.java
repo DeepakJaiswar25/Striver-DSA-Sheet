@@ -8,7 +8,6 @@ public static void main(String[] args) {
 }
 
 public static int findSingleNumber(int[] arr){
-
     int n= arr.length;
     //This is Brute force Method
      
