@@ -8,8 +8,6 @@ public class RotateMatrix90 {
         int[][] ans=rotateMatrix(matrix);
         System.out.println(Arrays.deepToString(ans));
     }
-
-
    public static int[][] rotateMatrix(int[][] matrix) {
         int n=matrix.length;
         int m= matrix[0].length;
