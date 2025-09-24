@@ -60,7 +60,6 @@ public static List<Integer> findMajorityElement(int[] arr){
       int c1=0;
       int c2=0;
     for(int i=0;i<n;i++){
-
         if(arr[i]==el1 ){
             c1++;
         }
@@ -76,7 +75,6 @@ public static List<Integer> findMajorityElement(int[] arr){
             ans.add(el2);
         }
         return ans;
-
 }
 
 }
