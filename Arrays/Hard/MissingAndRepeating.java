@@ -72,10 +72,8 @@ public static int[] findMissingAndRepeating(int[] nums){
         // Here, X-Y = val1 and X+Y = val2:
         long x = (val1 + val2) / 2;
         long y = x - val1;
-
         int[] ans = {(int)x, (int)y};
         return ans;
-
     
 } 
 }
