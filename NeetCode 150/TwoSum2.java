@@ -20,8 +20,7 @@ public class TwoSum2 {
             else{
                 r--;
             }
-        }
-        
+        }   
         return new int[]{-1,-1};
     }
 }
