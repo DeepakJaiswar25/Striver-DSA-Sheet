@@ -15,7 +15,6 @@ public class PalindromeString {
 
 
     public static boolean palindrome(String str,int i){
-
         if(i>=str.length()/2){
             return true;
         }
